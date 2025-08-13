@@ -1,6 +1,6 @@
 # AWS VPC with Public & Private Subnets, NAT Gateway, and Two EC2 Instances
 
-A hands-on lab that creates a VPC (10.0.0.0/16) with one **public** subnet (10.0.1.0/24) and one **private** subnet (10.0.2.0/24), an **Internet Gateway** for public egress, a **NAT Gateway** for private egress, and two Windows EC2 instances (one in each subnet). Region used in screenshots: **eu-north-1 (Stockholm)**.
+''' A hands-on lab that creates a VPC (10.0.0.0/16) with one **public** subnet (10.0.1.0/24) and one **private** subnet (10.0.2.0/24), an **Internet Gateway** for public egress, a **NAT Gateway** for private egress, and two Windows EC2 instances (one in each subnet). Region used in screenshots: **eu-north-1 (Stockholm)**.'''
 
 ---
 
