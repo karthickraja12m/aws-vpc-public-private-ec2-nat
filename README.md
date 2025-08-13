@@ -67,7 +67,7 @@ flowchart LR
 
 ## 🖼️ Screenshots
 
-![AWS VPC Project Steps](https://github.com/karthickraja12m/aws-vpc-public-private-ec2-nat/blob/main/aws_project_steps_vertical.jpg?raw=true)
+![image alt](https://github.com/karthickraja12m/aws-vpc-public-private-ec2-nat/blob/main/aws_project_steps_vertical.jpg?raw=true)
 
 
 
