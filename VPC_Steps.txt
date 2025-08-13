@@ -1,0 +1,31 @@
+Steps to Create and set up a VPC in AWS environment:
+
+1.Create your own VPC.
+
+2.Create a Public and Private subnet for different Available AZs by assigning different CIDR blocks.
+
+3.Create Internet Gateway & attach it to the VPC.
+
+4.Create Routing table [RT], One as Public & One as Private by associating the appropriate  subnets to it.
+
+5.Edit the Public route table's Route alone and map the IGW, not the Private and leave it as it is.
+
+6.Create Two Security Groups - One for Public [Edit the Inbound rules with RDP, HTTP/HTTPS, SSH and map 0.0.0.0/0 in the source] & One for Private [Edit the inbound rules and map the SG of Public in the source].
+
+7.Create Two EC2s one in public and one in private subnets with proper Security Groups.
+
+8.Login into Public and check the internet connection.
+
+9.Create NAT gateway with new Elastic IP for the internet connection in the Private Subnet. Map it to Private RT.
+
+10.Now login into the Private EC2 and verify the connectivity and Internet facility.
+
+
+DELETE
+------------
+*EC2 SERVER TERMINATE
+*NAT GATEWAY
+*SUBNET
+*VPC
+*ELASTIC IP RELEASE
+
