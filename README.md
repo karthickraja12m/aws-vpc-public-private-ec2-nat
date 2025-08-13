@@ -67,8 +67,7 @@ flowchart LR
 
 ## 🖼️ Screenshots
 
-- See the combined walkthrough image here: [`docs/images/aws_project_steps_vertical.jpg`](docs/images/aws_project_steps_vertical.jpg)
-- Individual screenshots are in [`docs/images/`](docs/images).
+![image alt] (https://github.com/karthickraja12m/aws-vpc-public-private-ec2-nat/blob/2bfafdecc654d03eb5f90c147349cbae3534876d/aws_project_steps_vertical.jpg)
 
 ---
 
