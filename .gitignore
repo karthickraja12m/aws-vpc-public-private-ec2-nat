@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Python caches (if you add scripts)
+__pycache__/
+*.pyc
+
+# Archives
+*.zip
